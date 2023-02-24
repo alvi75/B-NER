@@ -46,12 +46,6 @@ With conda:
 With pip:
 - `pip install -r requirements.txt`
 
-Build image with docker:
-- `docker build -t hawker -f Dockerfile .`
-
-Run with docker compose:
-- `docker-compose up`
-
 ## Usage
 
 Notebooks
