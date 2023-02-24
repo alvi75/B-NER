@@ -1,0 +1,4 @@
+outs:
+- md5: 1d5247fc35bfcb493fbfc8efd48ccc0f
+  size: 1160187
+  path: b_ner_sent.xlsx

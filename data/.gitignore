@@ -6,3 +6,6 @@
 /ner_sentences.csv
 /ner_tokens.txt
 /ner_token_id_name.pkl
+/k_sent.xlsx
+/r_sent.xlsx
+/b_ner_sent.xlsx
