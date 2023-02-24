@@ -1,0 +1,5 @@
+outs:
+- md5: b99bb3c2a79067f1b874c0a6b8f65328.dir
+  size: 1549096
+  nfiles: 4
+  path: ner_tokenizer

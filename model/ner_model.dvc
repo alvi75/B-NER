@@ -1,0 +1,5 @@
+outs:
+- md5: 0c2b169cfd282e44cbbb09a72e9b62b9.dir
+  size: 535666719
+  nfiles: 2
+  path: ner_model
