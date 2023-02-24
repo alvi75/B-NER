@@ -1,0 +1,4 @@
+outs:
+- md5: a548ecee07438ce7b698ea122465c9e1
+  size: 21245543
+  path: ner_sentences.csv

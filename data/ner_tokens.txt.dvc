@@ -1,0 +1,4 @@
+outs:
+- md5: 67f0b5702303c77decd920fca0c00d23
+  size: 10090208
+  path: ner_tokens.txt

@@ -1,0 +1,4 @@
+outs:
+- md5: 274d8f46e38401ed20ef59b395f50b8c
+  size: 1353554
+  path: ner_all_tokens_vocab.txt

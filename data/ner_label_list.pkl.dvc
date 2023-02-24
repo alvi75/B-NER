@@ -1,0 +1,4 @@
+outs:
+- md5: 9ef6bd73cf64903a4913a793a1464630
+  size: 68
+  path: ner_label_list.pkl

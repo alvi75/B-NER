@@ -1,0 +1,4 @@
+outs:
+- md5: 0b0c135737858c1991af099426e68f44
+  size: 82
+  path: ner_token_id_name.pkl
