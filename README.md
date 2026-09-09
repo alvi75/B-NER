@@ -35,16 +35,20 @@ Within the Natural Language Processing (NLP) framework, Named Entity Recognition
 <br>
 
 ## Installation
-You're expected to have python 3.8 installed on your system.
+You're expected to have Python 3.10 or newer installed on your system.
 
 Pull Data:
 - `dvc pull`
 
-With conda:
-- `conda env create -f env.yaml` 
-
-With pip:
+Install dependencies:
 - `pip install -r requirements.txt`
+
+To run the notebooks, install Jupyter separately:
+- `pip install jupyterlab`
+
+> `env.yml` is the original Python 3.8 conda environment from the paper. It is
+> kept for the historical record only and is **not** maintained — its pins are
+> from 2021 and carry known vulnerabilities. Use `requirements.txt`.
 
 ## Usage
 
