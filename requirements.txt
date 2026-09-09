@@ -9,7 +9,7 @@
 # Lower bounds are the minimum versions with no known open advisory.
 
 # --- modelling ---
-transformers>=5.10.0
+transformers[torch]>=5.10.0
 torch>=2.13.0
 tokenizers
 datasets
