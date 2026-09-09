@@ -1,0 +1,17 @@
+# Secrets — never commit credentials. A token was leaked this way once already.
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Notebook / Python noise
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.cache/
+
+# Local envs
+.venv/
+venv/

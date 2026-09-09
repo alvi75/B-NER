@@ -1,12 +1,19 @@
 # B-NER runtime dependencies.
 #
-# Only the packages the notebooks actually import are listed here. The previous
-# version of this file was a full `pip freeze` of a 2021 conda environment: it
-# pinned ~120 packages, most of them transitive or Jupyter tooling, which is why
-# the repo accumulated hundreds of Dependabot alerts. The historical pins are
-# still in git history if an exact 2021 replay is ever needed.
+# Only what this project needs at RUNTIME is listed here. That is not the same
+# as what the notebooks import: seqeval, openpyxl and accelerate (via the
+# transformers[torch] extra) are required but never appear in an import line.
 #
-# Lower bounds are the minimum versions with no known open advisory.
+# The previous version of this file was a full `pip freeze` of a 2021 conda
+# environment: 127 pinned packages, most of them transitive or Jupyter tooling,
+# which is why the repo accumulated 235 Dependabot alerts. The historical pins
+# are still in git history if an exact 2021 replay is ever needed.
+#
+# Where a lower bound is given it is the oldest version with no known open
+# advisory. Entries with no bound have no advisories on record at all.
+#
+# Validated on Python 3.13. Python 3.10/3.11 install fine but resolve older
+# numpy/pandas/scikit-learn than were tested - prefer 3.12+.
 
 # --- modelling ---
 transformers[torch]>=5.10.0

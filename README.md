@@ -35,10 +35,17 @@ Within the Natural Language Processing (NLP) framework, Named Entity Recognition
 <br>
 
 ## Installation
-You're expected to have Python 3.10 or newer installed on your system.
+You're expected to have **Python 3.12 or newer** installed on your system.
+3.10 and 3.11 will install, but pip then resolves older numpy / pandas /
+scikit-learn than this pin set was validated against.
 
 Pull Data:
 - `dvc pull`
+
+> **Note:** `.dvc/config` is empty, so no DVC remote is currently configured
+> and `dvc pull` cannot resolve the data or model artifacts. A remote must be
+> added (`dvc remote add -d <name> <url>`) before the notebooks can run on
+> real data.
 
 Install dependencies:
 - `pip install -r requirements.txt`
